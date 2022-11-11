@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,800|Open+Sans&display=swap');
+
+* {
+	font-family: 'Open Sans', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Verdana', sans-serif;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+}
+.header {
+	color: black;
+	margin-top: 3rem;
+	font-size: 24px;
+	letter-spacing: -1px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.links {
+	display: flex;
+	list-style-type: none;
+	justify-content: center;
+}
+
+.links li {
+	color: rgba(0, 0, 0, 0.7);
+	margin: 20px 10px 0 0;
+}
+
+.card-section {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.search {
+	margin: 20px auto;
+	width: 50%;
+	position: relative;
+}
+
+.search_bar {
+	/* display: block; */
+	/* width: 50%; */
+	font-size: 18px;
+	border: none;
+	border-radius: 20px;
+	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+		0 2px 4px -1px rgba(0, 0, 0, 0.06);
+	width: 95%;
+	padding: 20px;
+}
+
+.search_bar:focus {
+	outline: none;
+}
+
+.search_icon {
+	position: absolute;
+	top: 50%;
+	right: 2%;
+	transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 768px) {
+	.card-section {
+		width: 90%;
+		font-size: 80%;
+	}
+
+	.search {
+		margin-left: 20px;
+		width: 90%;
+	}
+}
+.Geeks {
+	background-image:
+	url(
+	"https://i.pinimg.com/736x/8c/b6/d1/8cb6d169d6084542dad36564764bac9f.jpg");
+	 background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+	margin-top: -50px;
+
+
+	
+	background-position: center;
+	
+}
+	
